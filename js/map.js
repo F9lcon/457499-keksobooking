@@ -47,6 +47,7 @@ var getType = function (i) {
   } else if (similarPlaces[i].offer.type === 'palace') {
     return 'Дворец';
   }
+  return similarPlaces[i].offer.type;
 };
 
 var getPlaces = function () {
